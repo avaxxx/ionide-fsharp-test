@@ -1,6 +1,12 @@
 source https://www.nuget.org/api/v2
 
+nuget dotnet-xunit
+nuget Expecto
 nuget FSharp.Core
+nuget FsUnit.xUnit
+nuget Microsoft.NET.Test.Sdk
+nuget xunit
+nuget xunit.runner.visualstudio
 
 group Build
 source https://www.nuget.org/api/v2
