@@ -4,6 +4,8 @@ nuget dotnet-xunit
 nuget Expecto
 nuget FSharp.Core
 nuget FsUnit.xUnit
+nuget MathNet.Numerics
+nuget MathNet.Numerics.FSharp
 nuget Microsoft.NET.Test.Sdk
 nuget xunit
 nuget xunit.runner.visualstudio
