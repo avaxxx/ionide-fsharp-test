@@ -1,10 +1,9 @@
-namespace Testing
+﻿namespace TestingProject
+
 open Xunit
 open FsUnit.Xunit
 
-
 module Tests =
-
     let (|EndOfGame|IncompleteStrike|Strike|Normal|Other|) (l, frame) =
         match l with
         | _ when frame = 11            -> EndOfGame(0)
@@ -35,3 +34,4 @@ module Tests =
     [<Fact>]
     let ``with simple scores should get the expected score.`` () =
         scoreBowls [1;2;3] |> should equal 6
+   

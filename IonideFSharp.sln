@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6DF35A86-9ED7-4F73-9FCA-50C130E70DA5}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LoggingLib", "src\LoggingLib\LoggingLib.fsproj", "{E25A34AF-F310-4170-AF05-976B1C653C48}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LoggingLib", "src\LoggingLib\LoggingLib.fsproj", "{E25A34AF-F310-4170-AF05-976B1C653C48}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MainConsole", "src\MainConsole\MainConsole.fsproj", "{9449240A-326F-4BA6-8C61-4C96D8394FF8}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MainConsole", "src\MainConsole\MainConsole.fsproj", "{9449240A-326F-4BA6-8C61-4C96D8394FF8}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Testing", "src\Testing\Testing.fsproj", "{920EFFD2-7247-4F3E-8C2A-AE7644B42204}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TestingProject", "src\TestingProject\TestingProject.fsproj", "{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E25A34AF-F310-4170-AF05-976B1C653C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,22 +45,28 @@ Global
 		{9449240A-326F-4BA6-8C61-4C96D8394FF8}.Release|x64.Build.0 = Release|Any CPU
 		{9449240A-326F-4BA6-8C61-4C96D8394FF8}.Release|x86.ActiveCfg = Release|Any CPU
 		{9449240A-326F-4BA6-8C61-4C96D8394FF8}.Release|x86.Build.0 = Release|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Debug|x64.Build.0 = Debug|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Debug|x86.Build.0 = Debug|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Release|Any CPU.Build.0 = Release|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Release|x64.ActiveCfg = Release|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Release|x64.Build.0 = Release|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Release|x86.ActiveCfg = Release|Any CPU
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204}.Release|x86.Build.0 = Release|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Debug|x64.Build.0 = Debug|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Release|x64.ActiveCfg = Release|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Release|x64.Build.0 = Release|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E25A34AF-F310-4170-AF05-976B1C653C48} = {6DF35A86-9ED7-4F73-9FCA-50C130E70DA5}
 		{9449240A-326F-4BA6-8C61-4C96D8394FF8} = {6DF35A86-9ED7-4F73-9FCA-50C130E70DA5}
-		{920EFFD2-7247-4F3E-8C2A-AE7644B42204} = {6DF35A86-9ED7-4F73-9FCA-50C130E70DA5}
+		{2C18847E-86DD-4BBC-A8F9-AFC75E4BEEC3} = {6DF35A86-9ED7-4F73-9FCA-50C130E70DA5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06236311-B2F0-4B07-819F-377137F04A6F}
 	EndGlobalSection
 EndGlobal
